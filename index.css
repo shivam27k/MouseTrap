@@ -3,10 +3,12 @@
   margin-left: auto;
   margin-right: auto;
 }
+
 #myImg {
   height: 400px;
   width: 500px;
 }
+
 h1 {
   font-size: 50px;
   font-family: 'Times New Roman', Times, serif;
@@ -15,11 +17,13 @@ h1 {
   text-align: center;
   text-shadow: 0 0 3px #000000, 0 0 2px #000000;
 }
+
 h1:hover {
   color: #06354b;
   text-decoration: none;
   cursor: pointer;
 }
+
 .tblcntr {
   margin-left: auto;
   margin-right: auto;
@@ -27,46 +31,57 @@ h1:hover {
   border: 2px solid black;
   background-color: rgba(68, 163, 163, 0.582);
 }
+
 .tblImg {
   height: 300px;
   width: 250px;
 }
+
 .tdThing {
   border: 2px solid black;
 }
+
 .pTables {
   font-family: cursive;
   font-size: 20px;
   text-align: center;
   font-weight: bold;
 }
+
 .pTablesH {
   font-size: 25px;
   text-align: center;
   font-weight: bold;
 }
+
 .detCenter {
   text-align: center;
 }
+
 img {
   opacity: 1;
 }
+
 img:hover {
   transform: scale(1.1);
   cursor: pointer;
 }
+
 a {
   color: #000000;
   text-decoration: none;
 }
+
 a:hover {
   color: #18333f;
   text-decoration: none;
   cursor: pointer;
 }
+
 body {
-  background-image: url(books.jpg);
+  background-image: url(./assets/books.jpg);
 }
+
 .buttonC {
   display: inline-block;
   background-color: #105881;
@@ -80,6 +95,7 @@ body {
   cursor: pointer;
   margin: auto;
 }
+
 .buttonF {
   display: inline-block;
   background-color: #34698b;
@@ -93,15 +109,18 @@ body {
   cursor: pointer;
   margin: auto;
 }
+
 .aStyle {
   color: #cccccc;
 }
+
 /*
 bro
 */
 header {
   padding: 6px 200px;
 }
+
 .myUl {
   border: 2px solid rgb(0, 0, 0);
   background-color: rgba(27, 136, 136, 0.548);
@@ -109,21 +128,25 @@ header {
   padding-top: 2px;
   padding-left: 4px;
 }
+
 .myUl {
   overflow: auto;
 }
+
 ul li {
   float: left;
   list-style: none;
   padding: 10px;
   margin: 10px 4px 10px 4px;
 }
+
 .myUl li a {
   text-decoration: none;
   color: rgb(31, 2, 2);
   font-size: 20px;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
 .search {
   float: right;
   color: ivory;
@@ -131,18 +154,22 @@ ul li {
   border-radius: 10px;
   padding: auto;
 }
+
 .myUl input {
   border-radius: 10px;
   border: 3px rgb(0, 0, 0);
   padding: 3px;
 }
+
 .myUl a:hover {
   color: rgb(126, 8, 8);
 }
+
 .dropdown {
   float: left;
   overflow: hidden;
 }
+
 .dropdown .dropbtn {
   font-size: 20px;
   border: none;
@@ -151,6 +178,7 @@ ul li {
   font-family: Georgia, 'Times New Roman', Times, serif;
   margin: 0;
 }
+
 .dropdown-content {
   display: none;
   position: absolute;
@@ -159,6 +187,7 @@ ul li {
   box-shadow: rgb(160, 46, 46);
   z-index: 10;
 }
+
 .dropdown-content a {
   float: none;
   color: black;
@@ -167,15 +196,19 @@ ul li {
   display: block;
   text-align: left;
 }
+
 .dropdown-content a:hover {
   background-color: #ddd;
 }
+
 .dropdown:hover .dropdown-content {
   display: grid;
 }
+
 button {
   background-color: rgba(27, 136, 136, 0);
 }
+
 /*
 Details css
 */
@@ -183,15 +216,18 @@ Details css
   height: 400px;
   width: 300px;
 }
+
 .detTable {
   margin-left: auto;
   margin-right: auto;
   border-spacing: 60px;
   background-color: rgba(68, 163, 163, 0.842);
 }
+
 .detP {
   font-size: 20px;
 }
+
 .buttonD {
   display: inline-block;
   background-color: #34698b;
